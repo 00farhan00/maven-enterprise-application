@@ -93,20 +93,21 @@
 
 	</dependencies>
 	
-	<!--
-         <distributionManagement>
+	<distributionManagement>
+	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://43.205.120.117:9990/farhanss/repository/walmart-enterprise-release/</url>
+	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <url>http://35.154.228.89:9990/farhanss/repository/walmart-enterprise-release/</url>
 	    </repository>
+	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://43.205.120.117:9990/farhanss/repository/walmart-enterprise-snapshot/</url>
+	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <url>http://35.154.228.89:9990/farhanss/repository/walmart-enterprise-snapshot/</url>
 	    </snapshotRepository>
+	    
 	</distributionManagement>
-	-->
 
 	<build>
 		<finalName>MavenEnterpriseApplication</finalName>
